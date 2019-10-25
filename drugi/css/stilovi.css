@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../images/patern.jpg");
+}
+
+.container
+{
+    width: 85%;
+    margin:0 auto;
+}
+
+.zaglavlje
+{
+    padding: 10px;
+}
+
+.zaglavlje img
+{
+    width: 200px;
+    height: 150px;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 35px;
+    font-size: 30px;
+    background-color: #65ad73;
+}
+
+ul li a
+{
+    display: block;
+    text-decoration: none;
+}
+
+ul li a:hover
+{
+    background-color: #d97127;
+}
+
+input[type=text] 
+{
+    width: 100%;
+    padding: 10px 18px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    background-color: linen;
+}
+
+input[type=email] 
+{
+    width: 100%;
+    padding: 10px 18px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    background-color: linen;
+}
+
+input[type=password] 
+{
+    width: 100%;
+    padding: 10px 18px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    background-color: linen;
+}
+
+select 
+{
+    width: 100%;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 3px;
+    background-color: linen;
+}
+
+.dugme 
+{
+    background-color: #d97127; 
+    border: none;
+    color: white;
+    padding: 13px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.dugme2 
+{
+    background-color: #d97127; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.glavniDeo
+{
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #c0edc9;
+}
+
+.levo
+{
+    margin-top: 30px;
+    vertical-align: top;
+    width:15%;
+    display: inline-block;
+}
+
+.centar
+{
+    width: 65%;
+    display: inline-block;
+}
+
+.desno
+{
+    margin-top: 30px;
+    vertical-align: top;
+    display: inline-block;
+    width: 15%;
+}
+
+.centar .proizvod
+{
+    width: 30%;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #65ad73;
+    margin: 5px;
+    padding: 5px;
+}
+
+.centar img
+{
+    width: 100%;
+}
+
+section 
+{
+    display: block;
+}
+
+.podnozje
+{
+    text-align: center;
+    height: 40px;
+    font-size: 28px;
+    background-color: #65ad73;
+}
